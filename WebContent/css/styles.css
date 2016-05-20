@@ -1,0 +1,157 @@
+body {
+  padding-top:62px;
+}
+
+body, html {
+  height:100%;
+}
+
+/* workaround modal-open padding issue */
+body.modal-open {
+    padding-right:0 !important;
+}
+
+#topButton {
+	margin-top: 50px;
+}
+
+#sidebar {
+   padding-left:0;
+}
+
+.bg-primary {
+	background-color: #5979e2 !important;
+}
+
+.navbar-dark .navbar-brand {
+	color: #373a3c;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(55, 58, 60, 0.8);
+}
+
+.display-1 {
+	font-size: 5rem;
+	margin-left: 25px;
+}
+
+#map {
+	height: 500px;
+	margin-left: -50px;
+	margin-right: 150px;
+}
+
+#myTrips {
+	width: 100%;
+	margin-left: -50px;
+	margin-right: 150px;
+}
+
+input {
+	color: #fff;
+	background-color: #373a3c;
+}
+
+th {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+
+table {
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
+/*
+ * Off Canvas at medium breakpoint
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 48em) {
+
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -33%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 33%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 33%;
+    height: 100%;
+  }
+}
+
+/*
+ * Off Canvas wider at sm breakpoint
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 34em) {
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -45%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 45%;
+  }
+  
+  .sidebar-offcanvas {
+    width: 45%;
+  }
+}
+
+
+/* responsive nav stacked liked 3.x */
+@media(max-width:34em) {
+    .navbar .navbar-brand {
+        float:none;
+        display: block;
+    }
+    .navbar .navbar-nav>.nav-item {
+        float: none;
+        margin-left: .1rem;
+    }
+    .navbar .navbar-nav {
+        float:none !important;
+    }
+}
+
+.card {
+    overflow:hidden;
+}
+
+.card-block .rotate {
+    z-index: 8;
+    float: right;
+    height: 100%;
+}
+
+.card-block .rotate i {
+    color: rgba(20, 20, 20, 0.15);
+    position: absolute;
+    left: 0;
+    left: auto;
+    right: -10px;
+    bottom: 0;
+    display: block;
+    -webkit-transform: rotate(-44deg);
+    -moz-transform: rotate(-44deg);
+    -o-transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
+    transform: rotate(-44deg);
+}
