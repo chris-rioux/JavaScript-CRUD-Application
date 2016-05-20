@@ -11,6 +11,8 @@
     <context:component-scan base-package="controllers" />
     
     <bean id="dao" class="dao.TravelCSVDAO"></bean>
+    <bean id="exc" class="controllers.ExceptionController"></bean> 
+    
     
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     	<property name="prefix" value="/views/"/>
