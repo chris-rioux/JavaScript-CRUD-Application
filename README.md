@@ -4,8 +4,8 @@ Week 13 Skill Distillery project leveraging the stack below to develop a RESTful
   - Spring MVC
   - JPA
   - Hibernate
-  - HTML
-  - CSS
+  - HTML5
+  - CSS3
   - JS
   - jQuery
   - Bootstrap v4
